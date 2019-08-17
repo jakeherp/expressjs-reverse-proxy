@@ -1,10 +1,19 @@
 {
-  "dependencies": {
-    "express": "^4.17.1",
-    "http-proxy": "^1.17.0"
-  },
-  "name": "weather-server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+	"name": "weather-server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"author": "Jacob Herper",
+	"scripts": {
+		"start": "node index.js",
+		"watch": "nodemon index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"http-proxy": "^1.17.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
 }
